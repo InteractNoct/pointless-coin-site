@@ -7,6 +7,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-size: 16px;
+    font-weight: bold; /* Make all text bold */
 }
 
 header {
@@ -40,10 +41,12 @@ h1 {
     text-shadow: 0 0 10px #FFD700;
     position: relative;
     z-index: 1;
+    font-weight: bold; /* Explicitly bold header */
 }
 
 p {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .logo {
@@ -63,6 +66,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
+    font-weight: bold; /* Bold button text */
 }
 
 button:hover {
@@ -90,6 +94,7 @@ button:hover {
     color: #FFD700;
     position: relative;
     overflow: hidden;
+    font-weight: bold; /* Bold text in these sections */
 }
 
 #stats::before, #pitch::before, #story::before, #datetime::before {
@@ -110,6 +115,7 @@ button:hover {
 #pitch ul {
     list-style: none;
     font-size: 20px;
+    font-weight: bold;
 }
 
 #pitch li:before {
@@ -139,6 +145,7 @@ button:hover {
     max-width: 800px;
     padding: 0 20px;
     text-align: justify;
+    font-weight: bold;
 }
 
 #story .story-gif {
@@ -153,6 +160,7 @@ footer {
     font-size: 18px;
     background: #000000;
     border-top: 2px solid #FFD700;
+    font-weight: bold;
 }
 
 footer a {
